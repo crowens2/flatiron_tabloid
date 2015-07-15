@@ -1,0 +1,26 @@
+.buttons{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.buttons ul li{
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+}
+.buttons ul li:nth-child(3){
+  width: 25%;
+}
+.buttons ul li:nth-child(1), .buttons ul li:nth-child(2){
+  margin-right: -3%;
+}
+.buttons ul li:nth-child(4), .buttons ul li:nth-child(5){
+  margin-left: -3%;
+}
+.buttons ul li a img{
+  width: 50%;
+}
+/* #logo{
+  width: 25%;
+  height: 25%;
+} */
