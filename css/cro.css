@@ -27,7 +27,6 @@ img{
   border: none;
   width: 40%;
   margin: auto;
-  
 }
 
 #flat{
@@ -60,6 +59,35 @@ div.buttons{
   color: black;
 }
 
+img#billy{
+  border-radius: 0%;
+  border: solid black 2px;
+  width: 30%;
+  float: left;
+  margin: 0 auto;
+  margin-left: 14%;
+}
+
+h2{
+  font-family: "Francois One";
+  text-align: center;
+  margin-top: 2%;
+}
+
+#bgp{
+  float: left;
+  width: 35%;
+  font-family: Francois One;
+  margin: auto;
+  margin-top: 1%;
+  text-align: left;
+  padding: 0 0 0 9%;
+}
+
+div.gossip{
+  margin: auto;
+  text-align: center;
+}
 
 
 /* div.buttons ul li:nth-child(3){
