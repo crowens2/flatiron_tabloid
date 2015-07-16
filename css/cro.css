@@ -1,16 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Francois+One);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Francois+One);
+h1{
+  font-family: Poiret One;
+  font-style: italic;
+  text-align: center;
+  margin-left: 3.5%;
+  margin-bottom: 3%;
+  
+}
+
 ul li{
   display: inline-block;
   width: 33%;
   list-style-type: none;
   text-align: center;
+  font-family: Francois One;
+  margin-bottom: 1%;
 }
 
 img{
   border-radius: 100%;
-}
-
-h1{
-  text-align: center;
-  font-family:
+  border: dashed 2px black;
 }
