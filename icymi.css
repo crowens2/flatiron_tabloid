@@ -1,21 +1,128 @@
+.container {
+  width:100%;
+  margin: 0 auto;
+}
+
 #div1{
-  width: 100%
+  width: 100%;
+  
+  text-align: center;
 }
+
+/*************
+    DIV 2
+**************/
+
 #div2{
-  width: 100%
+  width: 96%;
+  
+  margin: 2%;
+  text-align: right;
 }
+
+/*************
+    DIV 3
+**************/
+
 #div3{
-  width: 100%
+  width: 100%;
+  background-color: grey;
+  height: 30%;
+  margin: 2%;
+  border-radius: 10px;
+  overflow: hidden;
 }
+
+#div3 #img3 {
+  width: 18%;
+  float: left;
+}  
+
+#div3 #r3 {
+  float: right;
+  width: 80%;
+}
+
+
+
+#div3 #img3 img{
+  width: 100%;
+}
+
+#story1{
+  font-size: 150%;
+}
+
 #div4{
-  width: 100%
+  width: 100%;
+  
 }
 #div5{
-  width: 100%
+  width: 75%;
+    
+  float: left;
 }
+#d5{
+width: 100%;
+  margin-left: 2%;
+  background: #d3d3d3;
+  overflow: hidden;
+
+}
+
+#d5 #div5 p {
+  width: 88%;
+  float: left;
+}
+
+#ayaan
+{
+  width: 20%;
+  float: right;
+}
+
+#ayaanpic{
+  
+}
+
 #div6{
-  width: 100%
+  width: 100%;
+    
+  text-align: right;
 }
 #div7{
-  width: 100%
+  width: 70%; 
+  position: relative;
+  float: right;
+  font-size: 150%;
 }
+
+#beardiv{
+  width: 100%;
+background-color: grey;  
+  height: auto;
+  overflow: hidden;
+}
+
+#pic
+{
+  width: 22%;
+  float: left;
+  display: block;
+}
+
+
+
+.m{
+  margin-bottom: 50px;
+}
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
